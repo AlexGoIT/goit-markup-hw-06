@@ -558,8 +558,8 @@ textarea {
 
 /* ==================== SUBSCRIBE ==================== */
 
-.subscribe-wrapper {
-  margin-left: auto;
+.subscribe-form {
+  margin-left: 80px;
 
 }
 
@@ -570,7 +570,7 @@ textarea {
   color: var(--body-background-color);
 }
 
-.input-form {
+.input-wrapper {
   margin-top: 16px;
   display: inline-flex;
 }
@@ -578,7 +578,7 @@ textarea {
 .subscribe-input {
   width: 264px;
   height: 40px;
-  padding: 8px 16px;
+  padding: 0 16px;
   font-size: 12px;
   background-color: transparent;
   color: var(--body-background-color);
@@ -596,19 +596,19 @@ textarea {
   width: 165px;
   height: 40px;
   margin-left: 24px;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding: 8px 24px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  text-align: start;
   display: flex;
+  justify-content: center;
   align-items: center;
   border: none;
   color: var(--body-background-color);
   border-radius: 4px;
   background: var(--accent-color);
   transition: background-color var(--hover-transition);
+  cursor: pointer;
 }
 
 .subscribe-btn:hover,
@@ -733,7 +733,7 @@ textarea {
 
 .contact-input {
   height: 40px;
-  padding-left: 38px;
+  padding: 0 38px;
 }
 
 .input-icon {
