@@ -558,7 +558,7 @@ textarea {
 
 /* ==================== SUBSCRIBE ==================== */
 
-.subscribe-form {
+.subscribe-wrapper {
   margin-left: 80px;
 
 }
@@ -570,7 +570,7 @@ textarea {
   color: var(--body-background-color);
 }
 
-.input-wrapper {
+.subscribe-form {
   margin-top: 16px;
   display: inline-flex;
 }
