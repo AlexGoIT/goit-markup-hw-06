@@ -49,11 +49,25 @@ textarea {
   outline: none;
 }
 
+/* ========== */
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
+/* =============== NAVIGATION =============== */
 /* Logo */
 .logo-part-one {
   color: var(--iris-color);
@@ -71,12 +85,6 @@ textarea {
 
 .logo-part-two-footer {
   color: var(--cloud-color);
-}
-
-.page-header {
-  padding-top: 24px;
-  padding-bottom: 23px;
-  border-bottom: 1px solid var(--cornflower-color);
 }
 
 /* Links */
@@ -164,7 +172,16 @@ textarea {
   gap: 40px;
 }
 
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 23px;
+  border-bottom: 1px solid var(--cornflower-color);
+}
+
+/* =============== NAVIGATION =============== */
+
 /* Studio Page Header */
+
 .studio-page-header {
   background-color: var(--navy-blue-color);
   padding-top: 188px;
@@ -194,7 +211,7 @@ textarea {
   text-align: center;
 }
 
-/* Footer */
+/* =============== FOOTER =============== */
 .page-footer {
   background-color: var(--navy-blue-color);
   padding-top: 100px;
@@ -235,6 +252,8 @@ textarea {
   background-color: var(--footer-social-link-active);
 }
 
+/* =============== FOOTER =============== */
+
 /* Buttons */
 .btn {
   cursor: pointer;
@@ -245,6 +264,8 @@ textarea {
 }
 
 .page-header-btn {
+  min-width: 169px;
+  min-height: 56px;
   font-size: 16px;
   color: var(--body-background-color);
   background-color: var(--iris-color);
@@ -294,7 +315,8 @@ textarea {
   margin-bottom: 8px;
 }
 
-/* Directions Section - What Are We Doing */
+/* =============== DIRECTIONS SECTION =============== */
+/* =============== What Are We Doing =============== */
 .directions {
   padding-bottom: 120px;
 }
@@ -309,7 +331,9 @@ textarea {
   gap: 24px;
 }
 
-/* ==================== OUR TEAMS SECTION ==================== */
+/* =============== DIRECTIONS SECTION =============== */
+
+/* =============== OUR TEAMS SECTION =============== */
 .team {
   background-color: var(--cloud-color);
 }
@@ -543,24 +567,10 @@ textarea {
   margin: -1px;
 }
 
-/* ========== */
-.container {
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.text-center {
-  text-align: center;
-}
-
 /* ==================== SUBSCRIBE ==================== */
 
 .subscribe-wrapper {
   margin-left: 80px;
-
 }
 
 .subscribe-title {
@@ -619,7 +629,6 @@ textarea {
 .subscribe-btn-icon {
   margin-left: auto;
   fill: var(--body-background-color);
-  opacity: 0.24;
 }
 
 /* ==================== SUBSCRIBE ==================== */
@@ -825,7 +834,7 @@ textarea {
 }
 
 .private-policy-link::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   left: 0;
@@ -841,18 +850,15 @@ textarea {
 
 .form-send-btn {
   padding: 16px 32px;
-  width: 169px;
-  height: 56px;
+  min-width: 169px;
+  min-height: 56px;
   margin-left: auto;
   margin-right: auto;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
+  font-size: 16px;
   color: var(--body-background-color);
   border: none;
   background-color: var(--iris-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   transition: background-color var(--hover-transition);
 }
 
